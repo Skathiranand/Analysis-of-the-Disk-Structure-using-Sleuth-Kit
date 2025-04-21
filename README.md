@@ -23,10 +23,10 @@ Let’s create a 10MB blank disk image and simulate file system activity:
 cd ~/Downloads
 
 # Step 1: Create an empty disk image
-dd if=/dev/zero of=disk.dd bs=1M count=10
+dd if=/dev/zero of=file.dd bs=1M count=10
 
 # Step 2: Format it with a file system (like FAT32)
-mkfs.vfat disk.dd
+mkfs.vfat file.dd
 ```
 
 ## OUTPUT:
